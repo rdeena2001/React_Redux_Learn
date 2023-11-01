@@ -1,0 +1,22 @@
+{
+  "tableData": [
+    {
+      "id": 1,
+      "name": "Deena R",
+      "email": "john@gmail.com",
+      "mobile_no": 9025282820
+    },
+    {
+      "id": 2,
+      "name": "Mani R",
+      "email": "Jane@gmail.com",
+      "mobile_no": 9176866275
+    },
+    {
+      "id": 3,
+      "name": "Deena m",
+      "email": "rdeena549@gmail.com",
+      "mobile_no": "8787878781"
+    }
+  ]
+}

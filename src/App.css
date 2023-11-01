@@ -1,38 +1,201 @@
 .App {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+
+.form-container {
+  box-shadow: 0.0.188em 1.550em rgb(156, 156, 156);
+  /* background: linear-gradient(79deg, #7439db, #C66FBC 48%, #F7944D); */
+  background: rgb(65, 180, 225);
+  padding: 35px;
+  border-radius: 7px;
+}
+
+.form-container,
+.login-form,
+.register-form {
+
+  display: flex;
+  flex-direction: column;
+}
+
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+
+}
+
+.login-btn {
+  border: none;
+  background-color: rgb(79, 153, 107);
+  padding: 17px;
+  border-radius: 9px;
+  cursor: pointer
+}
+
+.link-button {
+  background: none;
+  color: rgb(6, 6, 88);
+  text-decoration: underline;
+
+}
+
+.logout-btn {
+
+  padding: 20px;
+  text-decoration: none;
+}
+
+.home-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(18, 19, 31);
+
+}
+
+nav .nav-ul li {
+  list-style: none;
+  padding: 10px;
+
+}
+
+nav .nav-ul li a {
+  color: green;
+  width: 80px;
+  text-decoration: none;
+}
+
+.custom-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.custom-table th,
+.custom-table td {
+
+  border: 1px solid #ccc;
+  padding: 4px;
+  text-align: left;
+}
+
+.card {
+  box-shadow: 0.0.188em 1.550em rgb(156, 156, 156);
+  width: 60%;
+  padding: 25px;
+  margin-bottom: 20%;
+}
+
+.custom-table tr th {
+  background-color: #22addf;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.box-table {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  /* background: linear-gradient(79deg, #7439db, #C66FBC 48%, #F7944D); */
+  /* background: rgb(237, 241, 242); */
+  /* padding: 35px; */
+  /* border-radius: 7px; */
+}
+
+.loading {
+  font-size: 70px;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  display: flex;
+  color: blue;
+  margin-top: 17%
 }
 
-.App-link {
-  color: #61dafb;
+.statusMsg {
+
+  font-size: 50px;
+  align-items: center; 
+  justify-content: center; 
+  display: flex;
+  color: red;
+  margin-top: 7%
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-btn {
+  border: none;
+  background-color: rgb(221, 30, 30);
+
+  padding: 13px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px 0px;
+  float: right;
+}
+
+.update-btn {
+  border: none;
+  background-color: rgb(43, 30, 221);
+
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 6px 12px;
+
+
+  /* float: right; */
+}
+
+.delete-btn {
+  border: none;
+  background-color: rgb(130, 19, 136);
+
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 6px 7px;
+  /* /* float: right; */
+
+}
+
+.view-btn {
+  border: none;
+  background-color: rgb(232, 110, 40);
+
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 6px 7px;
+  /* /* float: right; */
+
+}
+
+.addform-container {
+  box-shadow: 0.0.188em 1.550em rgb(156, 156, 156);
+  /* background: linear-gradient(79deg, #7439db, #C66FBC 48%, #F7944D); */
+  background: rgb(24, 153, 193);
+  padding: 35px;
+  border-radius: 7px;
+  /* width: 60%; */
+
+  /* margin: 80px 90px  50px; */
+}
+
+.add-form {
+  display: flex;
+  flex-direction: column;
 }
